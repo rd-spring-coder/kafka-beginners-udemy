@@ -33,7 +33,7 @@ public class ProducerDemoWithKeys {
             String key = BASE_KEY.concat(Integer.toString(i));
             String value = BASE_MSG.concat(Integer.toString(i));
 
-            LOG.info("Key - {}", key);
+            LOG.info("Key for message - {}", key);
             //CREATE A RECORD
             ProducerRecord<String, String> producerRecord = new ProducerRecord<String, String>(TOPIC_NAME, key, value);
 
