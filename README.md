@@ -17,3 +17,7 @@ _List topics:_
 
 _Describe a topic:_
 `Kafka-topic --zookeeper localhost:2181 --describe`
+
+**OPEN Question**
+1. What are offsets?
+2. What are kafka-consumer-groups, how to use?
